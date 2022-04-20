@@ -1,0 +1,140 @@
+html {
+    background: #fff;
+}
+
+
+nav {
+    overflow: hidden;
+    background-color: #0E3959;
+    position: sticky;
+    margin-top: -10px;
+    padding: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 36px;
+    padding-top: 40px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+nav a:last-of-type {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 36px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+nav button {
+   padding: 5px 36px;
+   cursor: pointer;
+   font-size: .8em;
+   color: #fff;
+   border: 1px solid #0E3959;
+   background-color: #FFCC00;
+   border-radius: 12px;
+   width: 150px;
+   height: 40px;
+
+}
+
+nav a:hover {
+    background-color: #97D1F0;
+    color: black;
+}
+
+/*When user is on the page*/
+nav a:active {
+    background-color: #505160;
+    color: white;
+}
+
+.navbar_logo {
+  float: left;
+}
+
+/*Position image container (needs to position the left and right arrows)*/
+.imgcontainer {
+  position: relative;
+}
+
+/*Next and previous button*/
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 20px;
+  margin-top: -90px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 30px 30px 30px 10px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/*Position the "next button" to the right*/
+.next {
+  right: 0;
+  border-radius: 30px 30px 30px 10px;
+}
+
+/*On hover, add a black background colour with a little bit see through*/
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Number text (1/3 etc)*/
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1em;
+  padding: 8px 8px;
+  position: absolute;
+  top:0;
+}
+
+
+/* Container for image captions*/
+.caption-container {
+  background-color: #505160;
+  margin-top: -4px;
+  padding: 10px 16px;
+  color: white;
+}
+
+#caption {
+  text-align: center;
+}
+
+.contentrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Hide the larger images by default - use JS to show them*/
+.mySlides {
+  display: none;
+}
+
+/* Add fade later
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+  */
+
+.videotrailer {
+  position: relative;
+  margin-left: 3em;
+}
